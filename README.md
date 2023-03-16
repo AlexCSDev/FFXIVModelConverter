@@ -10,6 +10,7 @@ Current features:
 | Textures export | Planned eventually |
 
 **It is recommended to use TexTools for everything other than FBX -> MDL conversion.**
+
 This application is heavily based on the code developed as a part of [TexTools project](https://github.com/TexTools/FFXIV_TexTools_UI). Big thanks to everyone who contributed to that project.
 
 ## Usage

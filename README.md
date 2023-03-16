@@ -20,6 +20,7 @@ At this point FFXIVModelConverter is only provided in source code form. After yo
 * `GameLanguage` should be set to your game language. Allowed values: `en, ja, de, fr, ko, chs, zh (same as chs)`
 #### Convert FBX into MDL (modding square enix model)
 `.\FFXIVModelConverter.exe fbx2mdl --input c:\my_mods\mod.fbx  --output "c:\my_mods\build\chara\equipment\e0000\model\c0000e0000_top.mdl" --game-path chara/equipment/e0000/model/c0000e0000_top.mdl --override-incoming-race Hyur_Midlander_Female`
+
 Where
 * `--input` is the path to the fbx file
 * `--output` is the path where mdl file will be saved
@@ -27,11 +28,13 @@ Where
 * `--override-incoming-race` is one of the optional settings. Run `.\FFXIVModelConverter.exe fbx2mdl` to see more details about possible optional settings. **The settings are identical to TexTools, so please refer to TexTools tutorials and documentation for more information about those.**
 #### Convert FBX into MDL (when you are changing model from another mod or the model is stored on disk)
 `.\FFXIVModelConverter.exe fbx2mdl --input c:\my_mods\mod.fbx  --output "c:\my_mods\build\chara\equipment\e0000\model\c0000e0000_top.mdl" --base-model "c:\another_mod\chara\equipment\e0000\model\c0000e0000_top.mdl" --game-path chara/equipment/e0000/model/c0000e0000_top.mdl --override-incoming-race Hyur_Midlander_Female`
+
 Where:
 * `--base-model` is the path to mdl file your model is based on.
 
 #### Convert MDL to FBX (experimental)
 `.\FFXIVModelConverter.exe mdl2fbx --input "c:\mod_directory\chara\equipment\a0000\model\c0000a0000_top.mdl" --output "c:\mod_src\c0000a0000_top.fbx" --game-path chara/equipment/a0000/c0000a0000_top.mdl`
+
 Where:
 * `--input` is the path to the mdl file
 * `--output` is the path to the fbx file

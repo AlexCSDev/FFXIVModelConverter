@@ -1,0 +1,4 @@
+[submodule "xivModdingFramework"]
+	path = xivModdingFramework
+	url = https://github.com/AlexCSDev/xivModdingFramework.git
+	branch = xiv_model_converter

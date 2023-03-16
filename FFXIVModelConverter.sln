@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FFXIVModelConverter", "FFXIVModelConverter\FFXIVModelConverter.csproj", "{2C4CAE5A-F366-4E68-80D7-0EC2CB229F73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xivModdingFramework", "xivModdingFramework\xivModdingFramework\xivModdingFramework.csproj", "{2EE6CD75-3969-4FAA-BD46-CB97767A9182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xivModdingFrameworkLite", "xivModdingFrameworkLite\xivModdingFrameworkLite.csproj", "{9F434228-26BC-474A-881B-5703156E49EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C4CAE5A-F366-4E68-80D7-0EC2CB229F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4CAE5A-F366-4E68-80D7-0EC2CB229F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4CAE5A-F366-4E68-80D7-0EC2CB229F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4CAE5A-F366-4E68-80D7-0EC2CB229F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE6CD75-3969-4FAA-BD46-CB97767A9182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE6CD75-3969-4FAA-BD46-CB97767A9182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE6CD75-3969-4FAA-BD46-CB97767A9182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE6CD75-3969-4FAA-BD46-CB97767A9182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F434228-26BC-474A-881B-5703156E49EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F434228-26BC-474A-881B-5703156E49EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F434228-26BC-474A-881B-5703156E49EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F434228-26BC-474A-881B-5703156E49EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87099637-5A2C-4183-BF94-C6BA36D6FAAD}
+	EndGlobalSection
+EndGlobal

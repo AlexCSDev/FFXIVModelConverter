@@ -11,11 +11,13 @@ Current features:
 
 **It is recommended to use TexTools for everything other than FBX -> MDL conversion.**
 
+**⚠ Please note: This application is provided as-is, no support is provided. Only issues containing bug reports will be reviewed. ⚠**
+
 This application is heavily based on the code developed as a part of [TexTools project](https://github.com/TexTools/FFXIV_TexTools_UI). Big thanks to everyone who contributed to that project.
 
 ## Usage
 #### Setting up
-At this point FFXIVModelConverter is only provided in source code form. After you have built the application you need to edit `settings.json` as following:
+After downloading application you need to edit `settings.json` as following:
 * `GameDataDirectory` should point to `game\sqpack\ffxiv` folder. `\\` should be used as a path separator.
 * `GameLanguage` should be set to your game language. Allowed values: `en, ja, de, fr, ko, chs, zh (same as chs)`
 #### Convert FBX into MDL (modding square enix model)
